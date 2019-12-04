@@ -1,0 +1,14 @@
+{
+	"pluginName": "渣男语录",
+	"description": "我的第一个uTools插件",
+	"main": "index.html",
+	"version": "0.0.1",
+	"preload":"preload.js",
+	"features": [
+	    {
+			"code": "hello",
+			"explain": "hello world",
+	        "cmds":["渣男语录", "渣男"]
+	    }
+	]
+}
