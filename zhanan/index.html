@@ -4,9 +4,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="./preload.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+        }
+        #main {
+            width: 80%;
+            height: 200px;
+            padding: 20px;
+            font-size: 18px;
+            line-height: 28px;
+            color: #888;
+            margin: 50px auto 0 auto;
+            box-shadow: 0 0 5px 2px #cacaca;
+            border: 1px solid #cacaca;
+            border-radius: 10px;
+        }
+        #list {
+            width: 100%;
+            padding: 0 20px 20px 20px;
+        }
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 0;
+        }
+        .text {
+            font-size: 16px;
+            line-height: 30px;
+            color: #999;
+        }
+        .list-item img {
+            width: 30px;
+            height: 30px;
+            flex: none;
+        }
+        .empty {
+            text-align: center;
+            color: #888;
+            font-size: 18px;
+            margin-top: 50px;
+        }
+        .btn-box {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #cacaca;
+            color: #fff;
+            cursor: pointer;
+        }
+        .again {
+            margin-left: 20px;
+        }
+        textarea {
+            height: 1px;
+            opacity: 0;
+        }
+    </style>
 </head>
 <body>
-    <div id="main"></div>
+    <textarea id="copy-box"></textarea>
+    <div id="list">
+    </div>
+    <div id="main">
+    </div>
+    <div class="btn-box">
+        <div class="copy btn" onclick="copy(event,true)">复制</div>
+        <div class="again btn" onclick="getSingle()">再来一条</div>
+    </div>
+    <script src="./preload.js"></script>
 </body>
 </html>

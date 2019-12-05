@@ -4,6 +4,8 @@
 	"main": "index.html",
 	"version": "0.0.1",
 	"preload":"preload.js",
+	"author": "zxs",
+	"logo": "logo.png",
 	"features": [
 	    {
 			"code": "hello",
