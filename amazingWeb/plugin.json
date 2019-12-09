@@ -1,0 +1,16 @@
+{
+	"pluginName": "那些令人震惊的网站",
+	"description": "盘点那些令人震惊的网站",
+	"main": "./assets/index.html",
+	"version": "0.0.1",
+	"preload":"preload.js",
+	"author": "zxs",
+	"logo": "logo.png",
+	"features": [
+	    {
+			"code": "hello",
+			"explain": "盘点那些令人震惊的网站",
+	        "cmds":["震惊网站", "amazingWeb"]
+	    }
+	]
+}

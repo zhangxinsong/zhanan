@@ -1,0 +1,99 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../preload.js"></script>
+        <script src="./js/swiper.min.js"></script>
+        <script src="./js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    </head>
+    <body>
+        <div class="contanier">
+            <div class="left-tree">
+                <div class="web-title">
+                    <img src="../logo.png">
+                    <p>xSss</p>
+                </div>
+                <div class="tree-item active-item" onclick="drawList('hotList', 0)">
+                    <img src="../logo.png"/>
+                    <span>热门推荐</span>
+                </div>
+                
+                <div class="tree-item" onclick="drawList('hotList', 1)">
+                    <img src="../logo.png"/>
+                    <span>设计素材</span>
+                </div>
+                <div class="tree-item" onclick="drawList('imageList', 2)">
+                    <img src="../logo.png"/>
+                    <span>美图</span>
+                </div>
+                <div class="tree-item" onclick="drawList('hotList', 3)">
+                    <img src="../logo.png"/>
+                    <span>开发必备</span>
+                </div>
+                <div class="tree-item" onclick="drawList('hotList', 4)">
+                    <img src="../logo.png"/>
+                    <span>在线工具</span>
+                </div>
+                <div class="tree-item" onclick="drawList('imageProcessList', 5)">
+                    <img src="../logo.png"/>
+                    <span>图片处理</span>
+                </div>
+                <div class="tree-item" onclick="drawList('videoProcessList', 6)">
+                    <img src="../logo.png"/>
+                    <span>视频处理</span>
+                </div>
+                <div class="tree-item" onclick="drawList('formatConversion', 7)">
+                    <img src="../logo.png"/>
+                    <span>格式转换</span>
+                </div>
+            </div>
+            <div class="right-content">
+                <!-- <div class="web-item">
+                    <img src="../logo.png" >
+                    <div class="web-content">
+                        <h1>dddddd</h1>
+                        <span>dddddddddddddd</span>
+                    </div>
+                    <div class="web-btn">
+                        <div onclick="showIframe()">点击跳转</div>
+                        <div onclick="showSwiper()">查看例图</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="swiper-shade opacity0" style="z-index: -1;">
+            <div class="shade-close"><img src="./image/close.png" onclick="hideSwiper()"></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide" style="background-image:url(../logo.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(../logo.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(../logo.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(../logo.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(../logo.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(../logo.png)"></div> -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="swiper-shade opacity0" style="z-index: -1;">
+            <div class="shade-close iframe-close">
+                <span class="iframe-title" style="font-size: 18px;color: #222;line-height: 50px;padding-left: 20px;">ddddddd</span>
+                <img src="./image/close1.png" onclick="hideIframe()">
+            </div>
+            <div class="iframe-box">
+                <iframe class="iframe" src="http://www.baidu.com" height="100%" width="100%" frameborder=0>
+                </iframe>
+            </div>
+            <div class="loading">
+                <img src="./image/loading.gif">
+            </div>
+        </div>
+    </body>
+</html>
