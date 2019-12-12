@@ -84,12 +84,12 @@ window.onload = function () {
 
     showSwiper = function(index) {
         let drawString = ''
-        console.log(activeList)
         activeList[index].imageList.forEach(item => {
             drawString += `<div class="swiper-slide" style="background-image:url(${item})"></div>`
         })
         $('.swiper-wrapper').html(drawString)
         setTimeout(() => {
+            swiper.slideTo(0,0)
             swiper.update()
             $('.swiper-shade').eq(0).removeClass('opacity0')
             $('.swiper-shade').eq(0).css('z-index', '2')
@@ -116,12 +116,6 @@ window.onload = function () {
                 $('.loading').css('display', 'none')
             }, 4000)
         }
-        // $('.iframe').attr('src', webObject[activeList][index].url)
-        //     $('.iframe-title').html(webObject[activeList][index].title)
-        //     setTimeout(() => {
-        //         $('.swiper-shade').eq(1).removeClass('opacity0')
-        //         $('.swiper-shade').eq(1).css('z-index', '2')
-        //     }, 500)
     }
 
     hideIframe = function() {

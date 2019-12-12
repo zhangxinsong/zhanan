@@ -4,60 +4,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
-        <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="../preload.js"></script>
-        <script src="./js/swiper.min.js"></script>
-        <script src="./js/static.js"></script>
-        <script src="./js/index.js"></script>
-        <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-        <link rel="stylesheet" href="./css/swiper.min.css">
-        <link rel="stylesheet" type="text/css" href="./css/index.css" />
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/static.js"></script>
+        <script src="assets/js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="assets/css/swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
     </head>
     <body>
         <div class="contanier">
             <div class="left-tree">
                 <div class="web-title">
-                    <img src="../logo.png">
+                    <img src="logo.png">
                     <p>xSss</p>
                 </div>
                 <div class="tree-item active-item" onclick="handleLeftItem('hot', 0)">
-                    <img src="../logo.png"/>
+                    <img src="logo.png"/>
                     <span>热门推荐</span>
                 </div>
                 <div class="tree-item" onclick="handleLeftItem('image', 1)">
-                    <img src="../logo.png"/>
+                    <img src="logo.png"/>
                     <span>美图</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('video', 2)">
-                    <img src="../logo.png"/>
-                    <span>视频</span>
-                </div>
-                <div class="tree-item" onclick="handleLeftItem('design', 3)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('design', 2)">
+                    <img src="logo.png"/>
                     <span>设计素材</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('develop', 4)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('develop', 3)">
+                    <img src="logo.png"/>
                     <span>开发必备</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('study', 5)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('study', 4)">
+                    <img src="logo.png"/>
                     <span>学习资料</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('tool', 6)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('tool', 5)">
+                    <img src="logo.png"/>
                     <span>在线工具</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('bored', 7)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('bored', 6)">
+                    <img src="logo.png"/>
                     <span>打发时间</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('software', 8)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('software', 7)">
+                    <img src="logo.png"/>
                     <span>软件推荐</span>
                 </div>
-                <div class="tree-item" onclick="handleLeftItem('app', 9)">
-                    <img src="../logo.png"/>
+                <div class="tree-item" onclick="handleLeftItem('app', 8)">
+                    <img src="logo.png"/>
                     <span>APP推荐</span>
                 </div>
             </div>
@@ -67,7 +62,7 @@
             </div>
         </div>
         <div class="swiper-shade opacity0" style="z-index: -1;">
-            <div class="shade-close"><img src="./image/close.png" onclick="hideSwiper()"></div>
+            <div class="shade-close"><img src="assets/image/close.png" onclick="hideSwiper()"></div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                 </div>
@@ -77,14 +72,14 @@
         <div class="swiper-shade opacity0" style="z-index: -1;">
             <div class="shade-close iframe-close">
                 <span class="iframe-title" style="font-size: 18px;color: #222;line-height: 50px;padding-left: 20px;"></span>
-                <img src="./image/close1.png" onclick="hideIframe()">
+                <img src="assets/image/close1.png" onclick="hideIframe()">
             </div>
             <div class="iframe-box">
                 <iframe class="iframe" src="" height="100%" width="100%" frameborder=0>
                 </iframe>
             </div>
             <div class="loading">
-                <img src="./image/loading.gif">
+                <img src="assets/image/loading.gif">
             </div>
         </div>
     </body>
