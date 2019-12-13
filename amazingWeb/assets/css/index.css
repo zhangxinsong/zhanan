@@ -25,11 +25,18 @@
     font-size: 16px;
     color: #3d3d3d;
     margin: 15px 0;
+    position: relative;
 }
 .web-title img {
     width: 50px;
     height: 50px;
     border-radius: 25px;
+}
+.web-title .tuichu {
+    width: 30px;
+    height: 30px;
+    display: none;
+    float: right;
 }
 .tree-item {
     display: flex;
@@ -58,6 +65,9 @@
     font-weight: 400;
 }
 
+.mobile-nav {
+    display: none;
+}
 .right-content .classify-item {
     width: 100%;
     box-sizing: border-box;
@@ -214,6 +224,50 @@
 .opacity0 {
     opacity: 0;
     display: block;
+}
+
+
+@media screen and (max-width: 500px) {
+    .left-tree {
+        position: absolute;
+        left: -220px;
+        z-index: 3;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 10px;
+        border-bottom: 1px solid #777;
+        background: #fff;
+        z-index: 2;
+    }
+    .mobile-nav img {
+        width: 30px;
+        height: 30px;
+    }
+    .mobile-nav span {
+        font-size: 16px;
+    }
+    .mobile-nav div{
+        width: 30px;
+    }
+    .classify-item .item {
+        margin: 5px 10px;
+    }
+    .web-title .tuichu {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+    .web-content span {
+        display:-webkit-box;
+        -webkit-line-clamp:3;
+        -webkit-box-orient:vertical;
+        overflow:hidden;
+    }
 }
 
 .bg-color-1 {

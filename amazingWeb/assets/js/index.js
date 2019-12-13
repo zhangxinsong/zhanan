@@ -82,6 +82,17 @@ window.onload = function () {
         $('.tree-item').eq(index).addClass('active-item')
     }
 
+    showLeftTree = function() {
+        $(".left-tree").animate({
+            left:'0',
+        });
+    }
+    hiddenLeftTree = function() {
+        $(".left-tree").animate({
+            left:'-220px',
+        });
+    }
+
     showSwiper = function(index) {
         let drawString = ''
         activeList[index].imageList.forEach(item => {
@@ -92,7 +103,7 @@ window.onload = function () {
             swiper.slideTo(0,0)
             swiper.update()
             $('.swiper-shade').eq(0).removeClass('opacity0')
-            $('.swiper-shade').eq(0).css('z-index', '2')
+            $('.swiper-shade').eq(0).css('z-index', '4')
         }, 100)
     }
 
@@ -110,7 +121,7 @@ window.onload = function () {
             $('.iframe').attr('src',activeList[index].url)
             $('.iframe-title').html(activeList[index].title)
             $('.swiper-shade').eq(1).removeClass('opacity0')
-            $('.swiper-shade').eq(1).css('z-index', '2')
+            $('.swiper-shade').eq(1).css('z-index', '4')
             setTimeout(() => {
                 $('.iframe-box').css('display', 'block')
                 $('.loading').css('display', 'none')

@@ -318,7 +318,69 @@ var webObject = {
         },
     ],
     designKeyWord: ['综合素材', '图片素材', '视频素材', '图标素材', '字体', '配色', 'UI-UX'],
-    designList: [],
+    designList: [
+        {
+            title: 'The stocks',
+            keywords: '综合素材,图片素材,视频素材,图标素材,字体,配色',
+            url: 'http://thestocks.im/',
+            image: 'http://thestocks.im/static/favicon-32x32.png',
+            description: '如果看过一些免费优质图片下载网站的推荐，你应该会对unsplash、pexels、pixabay等这些大名鼎鼎的良心免费图片网站有印象。而the stocks网站则是将这些良心的图片网站进行整合，放在左侧的导航栏里，一个更比六十个强。',
+            imageList: [
+                'http://yanxuan.nosdn.127.net/547bd858b10baa751354e8896b7a08c7.jpeg',
+                'http://yanxuan.nosdn.127.net/ab91dc182bab684cbd1275ded61bf436.jpeg',
+                'http://yanxuan.nosdn.127.net/cb36cd4de34ffc16ad4194d0993b8868.jpeg',
+                'http://yanxuan.nosdn.127.net/0889a4328f62044a0e07d6dfd7c13628.png',
+                'http://yanxuan.nosdn.127.net/0cd3ebc41c5d8a07fa4f473ec2d92c78.jpeg'
+            ]
+        },{
+            title: '沙沙野-让作品遇见全世界',
+            keywords: '综合素材,图片素材,视频素材',
+            url: 'https://www.ssyer.com/',
+            image: 'https://www.ssyer.com/favicon.ico',
+            description: '沙沙野是一个面向全球的高质量视觉素材平台，拥有百万素材。提供高清图片素材，网页素材，矢量图的免费下载服务。全站图片，视频素材均可在遵守平台规则的情况下直接下载并可商用。',
+            imageList: [
+                'https://img01.sogoucdn.com/app/a/100520146/d15ee358ba7acbcc4a3381ec8f3bfa22',
+                'https://img04.sogoucdn.com/app/a/100520146/40d0807cf2ca2bdd7b4089a1b32a104d',
+                'https://img03.sogoucdn.com/app/a/100520146/85929fbc244ddd68a62375e49b9478ee'
+            ]
+        },{
+            title: 'pixabay',
+            keywords: '综合素材,图片素材,视频素材',
+            url: 'https://pixabay.com/',
+            image: 'https://pixabay.com/apple-touch-icon.png',
+            description: 'Find your perfect free image or video to download and use for anything. ✓ Free for commercial use ✓ No attribution required ✓ High quality images.',
+            imageList: [
+                'http://yanxuan.nosdn.127.net/bf6fd091ecb76706bd343a13a5c761ff.jpeg',
+                'http://yanxuan.nosdn.127.net/e52c85f7ac5b2f8e4d33589e499ab768.jpeg',
+                'http://yanxuan.nosdn.127.net/80321f1499966108eeaa569f9074f28b.jpeg'
+            ],
+            domain: true
+        },{
+            title: 'lifeofpix',
+            keywords: '综合素材,图片素材,视频素材',
+            url: 'https://www.lifeofpix.com/',
+            image: 'https://www.lifeofpix.com/wp-content/uploads/fbrfg/apple-touch-icon.png',
+            description: 'Free high resolution photography. Share and download images freely. Search for pictures by color or format. Photographers, get an account now !',
+            imageList: [
+                'https://img03.sogoucdn.com/app/a/100520146/4ba3a80190e7540d1709611917d8b95c',
+                'https://img02.sogoucdn.com/app/a/100520146/ddddfd6d895e1836540810c7b10b4da3',
+                'https://img04.sogoucdn.com/app/a/100520146/b87c7307fd076bbd0869f494b786689d',
+            ]
+        },{
+            title: 'videezy',
+            keywords: '综合素材,图片素材,视频素材',
+            url: 'https://www.videezy.com/',
+            image: 'https://www.videezy.com/apple-touch-icon-precomposed.png',
+            description: 'Free HD Stock Video Footage! - Videezy is a community of Videographers who download and share free HD stock video!',
+            imageList: [
+                'http://yanxuan.nosdn.127.net/53e6dc1074a923c89b5500d7be2b793c.jpeg',
+                'http://yanxuan.nosdn.127.net/2266df843c647bf41709d847b4217bc4.jpeg',
+                'http://yanxuan.nosdn.127.net/ec6f763b1da3ffc6829eb852f894c1ae.png',
+            ],
+            domain: true
+        },
+        
+    ],
     developKeyWord: [],
     developList: [],
     studyKeyWord: [],
