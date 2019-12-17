@@ -368,7 +368,7 @@ var webObject = {
             ]
         },{
             title: 'videezy',
-            keywords: '综合素材,图片素材,视频素材',
+            keywords: '视频素材',
             url: 'https://www.videezy.com/',
             image: 'https://www.videezy.com/apple-touch-icon-precomposed.png',
             description: 'Free HD Stock Video Footage! - Videezy is a community of Videographers who download and share free HD stock video!',
@@ -378,8 +378,29 @@ var webObject = {
                 'http://yanxuan.nosdn.127.net/ec6f763b1da3ffc6829eb852f894c1ae.png',
             ],
             domain: true
+        },{
+            title: 'wedistill',
+            keywords: '视频素材',
+            url: 'http://www.wedistill.io/',
+            image: 'http://www.wedistill.io/assets/logo-color-9fa3412fd51e45cfa2376bd10129ce18.png',
+            description: 'Curated HD stock video footage free for your personal and commercial use. 10 new videos every 10 days. Videos are licensed under the Creative Commons Zero license.',
+            imageList: [
+                'http://yanxuan.nosdn.127.net/26999928e0e31c8f972e5a92b3515e1f.jpeg',
+                'http://yanxuan.nosdn.127.net/e562c8d243c302cf2c76de686d30da73.png',
+            ],
+            domain: true
+        },{
+            title: 'coverr',
+            keywords: '视频素材',
+            url: 'https://coverr.co/',
+            image: 'https://coverr.co/favicon.ico',
+            description: 'Download royalty free (for personal and commercial use), unique and beautiful video footage for your website or any project. No attribution required.',
+            imageList: [
+                'https://storage.googleapis.com/coverr-public/coverr_meta_image.jpg',
+                'http://yanxuan.nosdn.127.net/21d2a23fbed292078a4ca76334b31b36.jpeg',
+                'http://yanxuan.nosdn.127.net/5413595ffab567e662be8e6a72d02f46.jpeg'
+            ]
         },
-        
     ],
     developKeyWord: [],
     developList: [],
